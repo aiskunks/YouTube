@@ -1,0 +1,46 @@
+
+
+Reference :
+https://www.youtube.com/watch?v=4ZlRH0eK-qQ&t=791s&ab_channel=AbdulBari
+
+https://www.tutorialspoint.com/data_structures_algorithms/spanning_tree.htm
+
+The video starts with describing defintion of spanning tree and the way to get the minimum spanning tree. The youtube video covers the topic of prism and Kruskals algorithm with it's example and it's limitations.
+
+Defintition of Spanning tree
+-----------
+
+A spanning tree is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. Hence, a spanning tree does not have cycles and it cannot be disconnected..
+
+By this definition, we can draw a conclusion that every connected and undirected Graph G has at least one spanning tree. A disconnected graph does not have any spanning tree, as it cannot be spanned to all its vertices.
+
+
+
+General Properties of Spanning Tree
+-----------------------------------------
+We now understand that one graph can have more than one spanning tree. Following are a few properties of the spanning tree connected to graph G −
+
+A connected graph G can have more than one spanning tree.
+
+All possible spanning trees of graph G, have the same number of edges and vertices.
+
+The spanning tree does not have any cycle (loops).
+
+Removing one edge from the spanning tree will make the graph disconnected, i.e. the spanning tree is minimally connected.
+
+Adding one edge to the spanning tree will create a circuit or loop, i.e. the spanning tree is maximally acyclic.
+
+
+
+Minimum Spanning Tree (MST)
+------------------------------
+In a weighted graph, a minimum spanning tree is a spanning tree that has minimum weight than all other spanning trees of the same graph. In real-world situations, this weight can be measured as distance, congestion, traffic load or any arbitrary value denoted to the edges.
+
+Minimum Spanning-Tree Algorithm
+Two most important spanning tree algorithms here −
+
+Kruskal's Algorithm
+
+Prim's Algorithm
+
+Both are greedy algorithms.
